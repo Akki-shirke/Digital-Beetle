@@ -21,6 +21,7 @@
 	}
 }
 :root {
+	--heading-family: "Nunito", sans-serif;
 	--font-family: "Merriweather Sans", sans-serif;
 	--second-family: "Aoboshi One", sans-serif;
 	--third-family: "Merriweather", sans-serif;
@@ -35,7 +36,7 @@
 	background-image: url(./image/Hero-img.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 70vh;
+	height: 80vh;
 	z-index: -1;
 }
 .main::after {
@@ -43,7 +44,7 @@
 	position: absolute;
 	background-size: cover;
 	width: 100%;
-	height: 70vh;
+	height: 80vh;
 	top: 0;
 	left: 0;
 	z-index: 1;
@@ -85,36 +86,46 @@
 .card-1 {
 	z-index: 10;
 }
-.title {
-	font-weight: 600;
+.Heading {
+	font-weight: 900;
 	font-size: 45px;
-	padding-left: 10px;
 	padding-right: 50px;
 	text-transform: uppercase;
 	color: var(--black);
+	font-family: var(--heading-family);
 }
-.sub-title {
-	font-size: 20px;
+.title {
+	font-weight: 900;
+	font-size: 45px;
+	padding-right: 50px;
+	text-transform: uppercase;
+	color: var(--black);
+	font-family: var(--second-family);
 }
+
 .scroll-D {
-	position: absolute;
 	display: flex;
-	float: left;
 	position: absolute;
 	bottom: 0%;
-	right: 5%;
+	right: 0;
 	z-index: 20;
 	height: 100px;
-	border-radius: 50%;
 	padding-top: 50px;
+	width: fit-content;
 }
 .scroll {
 	padding: 40px;
 	background-color: #ffffff00;
-	margin: 40px;
+	/* margin: 40px; */
 	color: var(--btn);
 	border-radius: 50px;
 	border: 2px solid var(--btn);
+	margin-left: -33px;
+}
+.sub-title-2 {
+	font-size: 22px;
+	font-weight: 500;
+	font-style: var(--third-family);
 }
 
 /* section */
@@ -137,8 +148,9 @@ li {
 }
 .underline {
 	position: relative;
-	left: 50%;
+	left: 28%;
 	background: none;
+	top: -12px;
 }
 .btn-2 {
 	background-color: var(--btn);
@@ -188,10 +200,8 @@ li {
 	align-items: center;
 	justify-content: center;
 	border: none;
-	padding: 50px;
-	margin-left: -80px;
-	height: 430px;
-	margin-top: 40px;
+	padding: 22px;
+	margin-left: -50px;
 }
 .demo-img {
 	margin-top: 50px;
@@ -274,20 +284,28 @@ li {
 	grid-row-start: 2;
 }
 
+/* Modules */
+.module-img {
+	height: 450px;
+	width: 700px;
+}
+.struggle {
+	font-size: 1.5rem;
+}
 /* tolls */
 
 .tools-c {
 	display: flex;
 	float: left;
 }
-.tools img {
-	width: 40px;
-	height: 40px;
+.tools-img {
+	width: 100px;
+	height: 100px;
 }
 /* Testimonials */
 
 .carouse-card {
-	margin-top: 100px;
+	margin-top: 45px;
 	background-color: var(--white);
 	padding: 20px;
 	border-radius: 20px;
@@ -357,11 +375,15 @@ li {
 
 @media only screen and (max-width: 600px) {
 	.main {
-		height: 80vh;
+		height: 85vh;
 	}
 	.main::after {
-		height: 80vh;
+		height: 85vh;
 	}
+	.Heading {
+		font-size: 35px;
+	}
+
 	.underline {
 		position: absolute;
 		left: 100px;
@@ -379,12 +401,14 @@ li {
 		font-size: 35px;
 		letter-spacing: 2px;
 	}
+	.sub-title-2 {
+		font-size: 15px;
+	}
+
 	.title-3 {
 		font-size: 17px;
 	}
-	.sub-title {
-		font-size: 15px;
-	}
+
 	.card {
 		margin-left: 0px;
 	}
@@ -412,9 +436,7 @@ li {
 	.title {
 		font-size: 40px;
 	}
-	.sub-title {
-		font-size: 15px;
-	}
+
 	.card {
 		margin-left: 20px;
 		height: auto;

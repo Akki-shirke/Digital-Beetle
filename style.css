@@ -31,7 +31,7 @@ body {
 	--hover: #ff3333;
 }
 .main {
-	background-image: url(./Image/Hero-img.jpg);
+	background-image: url(./image/Hero-img.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 80vh;
@@ -203,7 +203,7 @@ li {
 .div1 {
 	height: 150px;
 
-	background-image: url(./Image/Heading-01.png);
+	background-image: url(./image/Heading-01.png);
 	background-repeat: no-repeat;
 	background-position: top start;
 
@@ -219,7 +219,7 @@ li {
 .div2 {
 	height: 150px;
 
-	background-image: url(./Image/Heading-03.png);
+	background-image: url(./image/Heading-03.png);
 	background-repeat: no-repeat;
 	background-position: top start;
 
@@ -233,7 +233,7 @@ li {
 .div3 {
 	height: 150px;
 
-	background-image: url(./Image/Heading-02.png);
+	background-image: url(./image/Heading-02.png);
 	background-repeat: no-repeat;
 	background-position: top start;
 

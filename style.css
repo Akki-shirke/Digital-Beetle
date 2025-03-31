@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 768px) {
+	body {
+		overflow-x: hidden !important;
+	}
+
 	.header {
 		width: 95% !important;
 		margin-left: auto !important;

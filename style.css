@@ -100,6 +100,10 @@ body {
 .title-2 {
 	font-size: 25px;
 }
+.title-3 {
+	font-size: 20px;
+}
+
 ul {
 	font-size: 15px;
 }
@@ -136,7 +140,7 @@ li {
 }
 
 .customer-text {
-	font-size: 15px;
+	font-size: 20px;
 }
 .btn-3 {
 	font-size: 20px;
@@ -254,7 +258,7 @@ li {
 .carouse-card {
 	margin-top: 100px;
 	background-color: var(--white);
-	padding: 5px;
+	padding: 20px;
 	border-radius: 20px;
 	text-align: center;
 	margin-left: 20px;
@@ -281,7 +285,7 @@ li {
 }
 .person .person-name {
 	padding: 20px;
-	font-size: 25px;
+	font-size: 20px;
 }
 .btn-test {
 	padding: 10px 20px;
@@ -340,6 +344,9 @@ li {
 	.title {
 		font-size: 35px;
 		letter-spacing: 2px;
+	}
+	.title-3 {
+		font-size: 17px;
 	}
 	.sub-title {
 		font-size: 15px;

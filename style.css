@@ -170,6 +170,7 @@ li {
 .icon {
 	color: var(--gold);
 }
+/* review */
 .center {
 	border-right: 2px solid var(--background);
 }
@@ -205,11 +206,11 @@ li {
 }
 
 /* why us */
-.Why-us-2 {
+#Why-us {
 	background-image: url(./image/bg-img.png);
 	background-position: right;
 	background-repeat: no-repeat;
-	background-color: #00000069;
+	background-color: #fffcfc69;
 	color: #393837;
 	background-size: 200px 400px;
 }
@@ -314,11 +315,11 @@ li {
 	font-size: 20px;
 }
 .btn-test {
-	padding: 10px 20px;
+	padding: 5px 10px;
 	background-color: white;
 	border: none;
-	font-size: 40px;
-	margin: 20px;
+	font-size: 30px;
+	margin: 10px;
 	border-radius: 20px;
 }
 .btn-test:hover {
@@ -392,6 +393,9 @@ li {
 		margin-left: 60px;
 		padding-bottom: 50px;
 	}
+	.center {
+		border-right: none;
+	}
 }
 @media (min-width: 601px) and (max-width: 1024px) {
 	/* Add your tablet-specific styles here */
@@ -433,5 +437,8 @@ li {
 	}
 	.style-underline {
 		margin-left: 50px;
+	}
+	.center {
+		border-right: none;
 	}
 }

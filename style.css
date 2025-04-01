@@ -192,14 +192,14 @@ li {
 
 /* demo */
 .hide {
-	visibility: hidden;
+	display: block;
 }
 .card {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border: none;
-	padding: 65px 40px;
+	padding: 40px;
 	margin-left: -50px;
 }
 .demo-img {

@@ -229,8 +229,8 @@ li {
 }
 
 .parent {
-	top: 50%;
-	transform: translate(0%, 70%);
+	top: 0%;
+	transform: translate(0%, 40%);
 	margin-left: 60px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -268,6 +268,7 @@ li {
 	grid-column-start: 1;
 	grid-row-start: 4;
 	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .div3 {

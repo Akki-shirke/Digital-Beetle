@@ -448,10 +448,10 @@ li {
 @media (min-width: 601px) and (max-width: 1024px) {
 	/* Add your tablet-specific styles here */
 	.main {
-		height: 50vh;
+		height: 60vh;
 	}
 	.main::after {
-		height: 50vh;
+		height: 60vh;
 	}
 	.title {
 		font-size: 40px;

@@ -196,7 +196,7 @@ li {
 
 /* demo */
 .hide {
-	display: block;
+	visibility: hidden;
 }
 .card {
 	display: flex;

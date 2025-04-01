@@ -302,8 +302,18 @@ li {
 	width: 100px;
 	height: 100px;
 }
+.shadow {
+	position: relative;
+	left: 30%;
+	background: transparent;
+	top: -12px;
+	height: 40px;
+}
 /* Testimonials */
-
+.shadow-2 {
+	position: relative;
+	margin-top: 85px;
+}
 .carouse-card {
 	margin-top: 45px;
 	background-color: var(--white);
@@ -386,7 +396,6 @@ li {
 
 	.underline {
 		position: relative;
-		left: 100px;
 	}
 	.hide {
 		display: none;
@@ -399,7 +408,9 @@ li {
 		padding: 10px;
 	}
 	.title {
-		font-size: 35px;
+		font-size: 25px;
+		font-weight: 900;
+		font-family: var(--second-family);
 	}
 	.sub-title-2 {
 		font-size: 15px;
@@ -423,6 +434,10 @@ li {
 	}
 	.center {
 		border-right: none;
+	}
+	.tools-img {
+		width: 30px;
+		height: 30px;
 	}
 }
 @media (min-width: 601px) and (max-width: 1024px) {

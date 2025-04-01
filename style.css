@@ -116,7 +116,6 @@
 .scroll {
 	padding: 40px;
 	background-color: #ffffff00;
-	/* margin: 40px; */
 	color: var(--btn);
 	border-radius: 50px;
 	border: 2px solid var(--btn);
@@ -385,7 +384,7 @@ li {
 	}
 
 	.underline {
-		position: absolute;
+		position: relative;
 		left: 100px;
 	}
 	.hide {
@@ -396,10 +395,10 @@ li {
 		height: auto;
 		margin-top: 0px;
 		margin-left: 10px;
+		padding: 10px;
 	}
 	.title {
 		font-size: 35px;
-		letter-spacing: 2px;
 	}
 	.sub-title-2 {
 		font-size: 15px;

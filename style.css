@@ -250,7 +250,6 @@ li {
 	background-image: url(./image/Heading-01.png);
 	background-repeat: no-repeat;
 	background-position: top start;
-
 	background-size: auto;
 	grid-column: span 2 / span 2;
 	grid-row: span 2 / span 2;
@@ -266,7 +265,6 @@ li {
 	background-image: url(./image/Heading-03.png);
 	background-repeat: no-repeat;
 	background-position: top start;
-
 	grid-column: span 2 / span 2;
 	grid-row: span 2 / span 2;
 	grid-column-start: 1;
@@ -277,11 +275,9 @@ li {
 
 .div3 {
 	height: 150px;
-
 	background-image: url(./image/Heading-02.png);
 	background-repeat: no-repeat;
 	background-position: top start;
-
 	grid-column: span 2 / span 2;
 	grid-row: span 3 / span 3;
 	grid-column-start: 3;

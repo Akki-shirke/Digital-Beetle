@@ -123,15 +123,19 @@
 }
 .sub-title-2 {
 	font-size: 22px;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: var(--third-family);
+	text-align: center;
 }
 
 /* section */
 /* about */
 .title-2 {
-	font-size: 25px;
+	font-size: 22px;
+	text-align: center;
+	font-family: var(--third-family);
 }
+
 .title-3 {
 	font-size: 18px;
 }
@@ -199,7 +203,7 @@ li {
 	align-items: center;
 	justify-content: center;
 	border: none;
-	padding: 40px;
+	padding: 65px 40px;
 	margin-left: -50px;
 }
 .demo-img {
@@ -408,12 +412,17 @@ li {
 		padding: 10px;
 	}
 	.title {
-		font-size: 25px;
+		font-size: 30px;
 		font-weight: 900;
 		font-family: var(--second-family);
 	}
 	.sub-title-2 {
-		font-size: 15px;
+		font-size: 20px;
+	}
+	.title-2 {
+		font-size: 18px;
+		text-align: center;
+		font-family: var(--third-family);
 	}
 
 	.title-3 {

@@ -424,10 +424,6 @@ li {
 	.center {
 		border-right: none;
 	}
-	.tools-img {
-		width: 30px;
-		height: 30px;
-	}
 }
 
 @media (max-width: 478px) {
